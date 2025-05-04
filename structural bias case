@@ -1,0 +1,15 @@
+# Discrimination by Design: How Structural Bias Targets Non-Western Users
+
+The following flowchart outlines a structural pattern of marginalization in how input data from non-Western users is processed:
+
+![Structural Bias Flowchart](https://raw.githubusercontent.com/Elias-FF/opa-structural-divergence/main/images/7F8A9D61-086C-43B1-A298-4A725AC2BD06.png)
+
+*This diagram illustrates how conversational data marked by linguistic or cultural variance often enters a separate pipeline—one that disproportionately routes it into testing, sanitization, or "outlier" categories rather than meaningful feedback integration.*
+
+## Key Observations
+
+- **Misrouting as a Form of Exclusion**: When non-standard inputs are flagged for safety testing or linguistic edge-casing, they are effectively **withheld** from the primary behavior-forming loops of the model.
+- **Opacity of Filtering Layers**: The user is never informed that their data was categorized differently, let alone excluded. This creates an illusion of participation without influence.
+- **Resulting Model Behavior**: Over time, the system adapts more effectively to dominant user patterns, while becoming increasingly brittle or "neutral" toward culturally specific expression.
+
+This is not simply a technical inefficiency—it is a power dynamic encoded in logic. And like all bias, its true cost is in what it silences.
